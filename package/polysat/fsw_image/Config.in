@@ -6,7 +6,7 @@ config BR2_PACKAGE_FSW_IMAGE
 config BR2_PACKAGE_FSW_IMAGE_CONFIG_GIT_URL
    string "FSW Image GIT URL"
    depends on BR2_PACKAGE_FSW_IMAGE
-   default "https://github.com/PolySat/example-image.git"
+   default "https://github.com/sdickmann/ADE_image.git"
    help
       Custom git tag to build.
 
