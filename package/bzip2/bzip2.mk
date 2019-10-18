@@ -6,7 +6,7 @@
 BZIP2_VERSION:=1.0.5
 BZIP2_SONAME=1.0.4
 BZIP2_SOURCE:=bzip2-$(BZIP2_VERSION).tar.gz
-BZIP2_SITE:=https://ftp.osuosl.org/pub/clfs/conglomeration/bzip2/bzip2-1.0.5.tar.gz
+BZIP2_SITE:=https://sourceware.org/pub/bzip2/
 BZIP2_INSTALL_STAGING=YES
 BZIP2_POST_INSTALL_TARGET_HOOKS+=BZIP2_CLEAN_STATIC_LIBS
 
